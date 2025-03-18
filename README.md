@@ -63,6 +63,8 @@ If your VCF file is named `example.vcf`, the script will:
 - Parse the file
 - Filter SNPs with a quality threshold of 30
 - Save results to `snp_results.csv`
+  
+![alt text](https://github.com/AkimzhanRakhimov/snpAnalyser/blob/main/2025-03-18_07-25-49.png)
 
 ```bash
 python3 snp_analyzer.py
@@ -116,6 +118,8 @@ class SNPAnalyzer:
         df.to_csv(output_file, index=False, sep=';', encoding='utf-8')
 ```
 - Saves parsed and filtered SNP data to a CSV file with `;` as the delimiter.
+
+![alt text](https://github.com/AkimzhanRakhimov/snpAnalyser/blob/main/2025-03-18_07-24-41.png)
 
 ### Error Handling
 ```python
